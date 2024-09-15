@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Save to Obsidian",
-  "description": "Extension for save web content to Obsidian using Obsidian URI protocol handler.",
+  "description": "Extension for saving web content to Obsidian using Obsidian URI protocol handler.",
   "version": "1.0",
   "action": {
     "default_title": "Save to Obsidian",
