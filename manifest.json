@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Save to Obsidian",
+  "description": "Extension for save web content to Obsidian using Obsidian URI protocol handler.",
+  "version": "1.0",
+  "action": {
+    "default_title": "Save to Obsidian",
+    "default_icon": "obsidian-logo.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+      "service_worker": "background.js"
+  }
+}
