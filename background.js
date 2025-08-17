@@ -4,7 +4,7 @@ chrome.action.onClicked.addListener((tab) => {
         func: () => {
             vault_id = prompt("vault / vault id", "f75a1956aa3b5f1a");
             url = prompt("url", window.location.href);
-            title = prompt("title", document.title);
+            title = prompt("title", document.title.replace("&", "and"));
             directory = prompt("enter directory");
             file_name = prompt("full file name", directory + title.replace(/[/\\?%*:|"<>]/g, '-'));
             tags = (() => {
